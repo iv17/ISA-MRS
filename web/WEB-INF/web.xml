@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ 
+<!-- IVANA  -->
+<!-- CREATE  -->
+<servlet>
+	<servlet-name>CreateJeloController</servlet-name>
+	<servlet-class>server.servlet.CreateJeloController</servlet-class>
+</servlet>
+ 
+<servlet>
+	<servlet-name>CreateJelovnikController</servlet-name>
+	<servlet-class>server.servlet.CreateJelovnikController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>CreateKartaPicaController</servlet-name>
+  	<servlet-class>server.servlet.CreateKartaPicaController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>CreateKonobarController</servlet-name>
+  	<servlet-class>server.servlet.CreateKonobarController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>CreateKuvarController</servlet-name>
+  	<servlet-class>server.servlet.CreateKuvarController</servlet-class>
+</servlet>
+
+<servlet>
+  	<servlet-name>CreateNamirniceController</servlet-name>
+	<servlet-class>server.servlet.CreateNamirniceController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>CreatePiceController</servlet-name>
+	<servlet-class>server.servlet.CreatePiceController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>CreatePonudaController</servlet-name>
+	<servlet-class>server.servlet.CreatePonudaController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>CreatePonudjacController</servlet-name>
+	<servlet-class>server.servlet.CreatePonudjacController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>CreateRasporedStolovaController</servlet-name>
+  	<servlet-class>server.servlet.CreateRasporedStolovaController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>CreateSankerController</servlet-name>
+	<servlet-class>server.servlet.CreateSankerController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>CreateSmenaController</servlet-name>
+	<servlet-class>server.servlet.CreateSmenaController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>CreateStoController</servlet-name>
+	<servlet-class>server.servlet.CreateStoController</servlet-class>
+</servlet>
+<!-- IZVESTAJI  -->
+<servlet>
+	<servlet-name>IzvestajJeloOcenaController</servlet-name>
+	<servlet-class>server.servlet.IzvestajJeloOcenaController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>IzvestajKonobarOcenaController</servlet-name>
+	<servlet-class>server.servlet.IzvestajKonobarOcenaController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>IzvestajKonobarPrihodiController</servlet-name>
+	<servlet-class>server.servlet.IzvestajKonobarPrihodiController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>IzvestajRestoranOcenaController</servlet-name>
+	<servlet-class>server.servlet.IzvestajRestoranOcenaController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>IzvestajRestoranPrihodiController</servlet-name>
+	<servlet-class>server.servlet.IzvestajRestoranPrihodiController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>DnevniIzvestajPosecenostiController</servlet-name>
+	<servlet-class>server.servlet.DnevniIzvestajPosecenostiController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>NedeljniIzvestajPosecenostiController</servlet-name>
+	<servlet-class>server.servlet.NedeljniIzvestajPosecenostiController</servlet-class>
+</servlet>
+
+<!-- PREPARE CREATE  -->
+<servlet>
+	<servlet-name>PrepareCreateKonobarController</servlet-name>
+	<servlet-class>server.servlet.PrepareCreateKonobarController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>PrepareCreatePonudaController</servlet-name>
+	<servlet-class>server.servlet.PrepareCreatePonudaController</servlet-class>
+</servlet>
+
+<!-- PREPARE UPDATE  -->
+<servlet>
+	<servlet-name>PrepareUpdatePonudaController</servlet-name>
+	<servlet-class>server.servlet.PrepareUpdatePonudaController</servlet-class>
+</servlet>
+
+ <servlet>
+	<servlet-name>PrepareUpdatePonudjacController</servlet-name>
+	<servlet-class>server.servlet.PrepareUpdatePonudjacController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>PrepareUpdateRestoranController</servlet-name>
+	<servlet-class>server.servlet.PrepareUpdateRestoranController</servlet-class>
+</servlet>
+
+<!-- UPDATE  -->
+<servlet>
+	<servlet-name>UpdatePonudaController</servlet-name>
+	<servlet-class>server.servlet.UpdatePonudaController</servlet-class>
+</servlet>
+ 
+<servlet>
+	<servlet-name>UpdatePonudjacController</servlet-name>
+	<servlet-class>server.servlet.UpdatePonudjacController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>UpdateRestoranController</servlet-name>
+  	<servlet-class>server.servlet.UpdateRestoranController</servlet-class>
+</servlet>
+<!-- READ  -->
+<servlet>
+	<servlet-name>ReadJeloController</servlet-name>
+  	<servlet-class>server.servlet.ReadJeloController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadJelovnikController</servlet-name>
+  	<servlet-class>server.servlet.ReadJelovnikController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadKartaPicaController</servlet-name>
+  	<servlet-class>server.servlet.ReadKartaPicaController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadKonobarController</servlet-name>
+  	<servlet-class>server.servlet.ReadKonobarController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadKuvarController</servlet-name>
+  	<servlet-class>server.servlet.ReadKuvarController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadNamirniceController</servlet-name>
+  	<servlet-class>server.servlet.ReadNamirniceController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadNamirniceZaPonudjacaController</servlet-name>
+  	<servlet-class>server.servlet.ReadNamirniceZaPonudjacaController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadPiceController</servlet-name>
+  	<servlet-class>server.servlet.ReadPiceController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadPonudaController</servlet-name>
+  	<servlet-class>server.servlet.ReadPonudaController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadPonudaZaPonudjacaController</servlet-name>
+  	<servlet-class>server.servlet.ReadPonudaZaPonudjacaController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadPonudjacController</servlet-name>
+  	<servlet-class>server.servlet.ReadPonudjacController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadPonudjaciController</servlet-name>
+  	<servlet-class>server.servlet.ReadPonudjaciController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadRasporedStolovaController</servlet-name>
+  	<servlet-class>server.servlet.ReadRasporedStolovaController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadReonController</servlet-name>
+  	<servlet-class>server.servlet.ReadReonController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadRestoranController</servlet-name>
+  	<servlet-class>server.servlet.ReadRestoranController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadSankerController</servlet-name>
+  	<servlet-class>server.servlet.ReadSankerController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ReadSmenaController</servlet-name>
+  	<servlet-class>server.servlet.ReadSmenaController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>SendNotificationMtoP</servlet-name>
+  	<servlet-class>server.servlet.SendNotificationMtoP</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>SendNotificationPtoM</servlet-name>
+  	<servlet-class>server.servlet.SendNotificationPtoM</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>TakeSupplyController</servlet-name>
+  	<servlet-class>server.servlet.TakeSupplyController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>AddReonToStoController</servlet-name>
+  	<servlet-class>server.servlet.AddReonToStoController</servlet-class>
+</servlet>
+
+<!-- IVANA -->
+ 
+ <!-- TAMARA -->
+ 	
+ 	<servlet>
+		<servlet-name>AddOcenaController</servlet-name>
+		<servlet-class>server.servlet.AddOcenaController</servlet-class>
+	</servlet>
+ 
+ 	<servlet>
+		<servlet-name>ShowPoseteController</servlet-name>
+		<servlet-class>server.servlet.ShowPoseteController</servlet-class>
+	</servlet>
+ 
+ 	<servlet>
+		<servlet-name>CancelOrderController</servlet-name>
+		<servlet-class>server.servlet.CancelOrderController</servlet-class>
+	</servlet>
+ 
+ 
+ 	<servlet>
+		<servlet-name>ShowOrdersController</servlet-name>
+		<servlet-class>server.servlet.ShowOrdersController</servlet-class>
+	</servlet>
+	
+ 	<servlet>
+		<servlet-name>AddDrinkToOrderController</servlet-name>
+		<servlet-class>server.servlet.AddDrinkToOrderController</servlet-class>
+	</servlet>
+ 
+ 	<servlet>
+		<servlet-name>AddFoodToOrderController</servlet-name>
+		<servlet-class>server.servlet.AddFoodToOrderController</servlet-class>
+	</servlet>
+ 
+ 	<servlet>
+		<servlet-name>CreateOrderController</servlet-name>
+		<servlet-class>server.servlet.CreateOrderController</servlet-class>
+	</servlet>
+ 
+ 	<servlet>
+		<servlet-name>CancelInvitationController</servlet-name>
+		<servlet-class>server.servlet.CancelInvitationController</servlet-class>
+	</servlet>
+ 
+ 	<servlet>
+		<servlet-name>CancelReservationController</servlet-name>
+		<servlet-class>server.servlet.CancelReservationController</servlet-class>
+	</servlet>
+ 
+ 	<servlet>
+		<servlet-name>ShowReservationsController</servlet-name>
+		<servlet-class>server.servlet.ShowReservationsController</servlet-class>
+	</servlet>
+ 
+ 	<servlet>
+		<servlet-name>CheckTableController</servlet-name>
+		<servlet-class>server.servlet.CheckTableController</servlet-class>
+	</servlet>
+ 
+ 	<servlet>
+		<servlet-name>DeclineEventController</servlet-name>
+		<servlet-class>server.servlet.DeclineEventController</servlet-class>
+	</servlet>
+ 
+ 	
+ 	<servlet>
+		<servlet-name>AcceptEventController</servlet-name>
+		<servlet-class>server.servlet.AcceptEventController</servlet-class>
+	</servlet>
+ 
+ 	<servlet>
+		<servlet-name>ViewEventRequestsController</servlet-name>
+		<servlet-class>server.servlet.ViewEventRequestsController</servlet-class>
+	</servlet>
+ 	
+ 	<servlet>
+		<servlet-name>InviteFriendController</servlet-name>
+		<servlet-class>server.servlet.InviteFriendController</servlet-class>
+	</servlet>
+ 	
+ 	<servlet>
+		<servlet-name>CreateRezervacijaController</servlet-name>
+		<servlet-class>server.servlet.CreateRezervacijaController</servlet-class>
+	</servlet>
+ 	
+ 	<servlet>
+		<servlet-name>CheckReservationTimeController</servlet-name>
+		<servlet-class>server.servlet.CheckReservationTimeController</servlet-class>
+	</servlet>
+ 
+ 	<servlet>
+		<servlet-name>RestaurantsToChooseController</servlet-name>
+		<servlet-class>server.servlet.RestaurantsToChooseController</servlet-class>
+	</servlet>
+ 
+ 
+ 	<servlet>
+		<servlet-name>ChooseRestaurantController</servlet-name>
+		<servlet-class>server.servlet.ChooseRestaurantController</servlet-class>
+	</servlet>
+ 
+ 	<servlet>
+		<servlet-name>DeclineFriendController</servlet-name>
+		<servlet-class>server.servlet.DeclineFriendController</servlet-class>
+	</servlet>
+ 
+ 
+ 	<servlet>
+		<servlet-name>ViewFriendRequestsController</servlet-name>
+		<servlet-class>server.servlet.ViewFriendRequestsController</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AcceptFriendController</servlet-name>
+		<servlet-class>server.servlet.AcceptFriendController</servlet-class>
+	</servlet>
+   
+   <servlet>
+		<servlet-name>AddFriendController</servlet-name>
+		<servlet-class>server.servlet.AddFriendController</servlet-class>
+	</servlet>
+ 
+ 	<servlet>
+		<servlet-name>AddFriendsController</servlet-name>
+		<servlet-class>server.servlet.AddFriendsController</servlet-class>
+	</servlet>
+ 
+   
+   	<servlet>
+      	<servlet-name>RemoveFriendController</servlet-name>
+      	<servlet-class>server.servlet.RemoveFriendController</servlet-class>
+   	</servlet>
+   
+   
+   <servlet>
+      <servlet-name>SortFriendsByLnameController</servlet-name>
+      <servlet-class>server.servlet.SortFriendsByLnameController</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>SearchFriendsController</servlet-name>
+      <servlet-class>server.servlet.SearchFriendsController</servlet-class>
+   </servlet>
+   
+   
+   <servlet>
+      <servlet-name>SortFriendsByNameController</servlet-name>
+      <servlet-class>server.servlet.SortFriendsByNameController</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>SearchRestaurantsController</servlet-name>
+      <servlet-class>server.servlet.SearchRestaurantsController</servlet-class>
+   </servlet>
+   
+   
+   <servlet>
+      <servlet-name>LogoutController</servlet-name>
+      <servlet-class>server.servlet.LogoutController</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>SortRestaurantsByTypeController</servlet-name>
+      <servlet-class>server.servlet.SortRestaurantsByTypeController</servlet-class>
+   </servlet>
+   
+   
+   <servlet>
+      <servlet-name>ShowRestaurantsController</servlet-name>
+      <servlet-class>server.servlet.ShowRestaurantsController</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>SortRestaurantsByNameController</servlet-name>
+      <servlet-class>server.servlet.SortRestaurantsByNameController</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>RedirectToRegisterController</servlet-name>
+      <servlet-class>server.servlet.RedirectToRegisterController</servlet-class>
+   </servlet>
+   
+   
+   <servlet>
+      <servlet-name>RedirectToLoginController</servlet-name>
+      <servlet-class>server.servlet.RedirectToLoginController</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>RegisterController</servlet-name>
+      <servlet-class>server.servlet.RegisterController</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>UpdateProfileController</servlet-name>
+      <servlet-class>server.servlet.UpdateProfileController</servlet-class>
+   </servlet>
+    
+   <servlet>
+      <servlet-name>ConfirmController</servlet-name>
+      <servlet-class>server.servlet.ConfirmController</servlet-class>
+   </servlet>
+   
+   
+   <servlet>
+      <servlet-name>LoginController</servlet-name>
+      <servlet-class>server.servlet.LoginController</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>ShowFreindsController</servlet-name>
+      <servlet-class>server.servlet.ShowFreindsController</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>CreateRestaurantController</servlet-name>
+      <servlet-class>server.servlet.CreateRestaurantController</servlet-class>
+   </servlet>
+   
+  <!--*************************************--> 
+<servlet>
+	<servlet-name>UpdateKonobarController</servlet-name>
+  	<servlet-class>server.servlet.UpdateKonobarController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>UpdateKuvarController</servlet-name>
+  	<servlet-class>server.servlet.UpdateKuvarController</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>UpdateSankerController</servlet-name>
+  	<servlet-class>server.servlet.UpdateSankerController</servlet-class>
+</servlet>
+   <!--*************************************--> 
+   
+   <!--MAPIRANJE-->
+   
+   <servlet-mapping>
+	<servlet-name>AddOcenaController</servlet-name>
+	<url-pattern>/AddOcenaController</url-pattern>
+  </servlet-mapping>
+   
+   <servlet-mapping>
+	<servlet-name>ShowPoseteController</servlet-name>
+	<url-pattern>/ShowPoseteController</url-pattern>
+  </servlet-mapping>
+   
+   <servlet-mapping>
+	<servlet-name>CancelOrderController</servlet-name>
+	<url-pattern>/CancelOrderController</url-pattern>
+  </servlet-mapping>
+   
+   <servlet-mapping>
+	<servlet-name>ShowOrdersController</servlet-name>
+	<url-pattern>/ShowOrdersController</url-pattern>
+  </servlet-mapping>
+   
+   
+   <servlet-mapping>
+	<servlet-name>AddDrinkToOrderController</servlet-name>
+	<url-pattern>/AddDrinkToOrderController</url-pattern>
+  </servlet-mapping>
+   
+   
+   <servlet-mapping>
+	<servlet-name>AddFoodToOrderController</servlet-name>
+	<url-pattern>/AddFoodToOrderController</url-pattern>
+  </servlet-mapping>
+   
+   <servlet-mapping>
+	<servlet-name>CreateOrderController</servlet-name>
+	<url-pattern>/CreateOrderController</url-pattern>
+  </servlet-mapping>
+   
+   <servlet-mapping>
+	<servlet-name>CancelInvitationController</servlet-name>
+	<url-pattern>/CancelInvitationController</url-pattern>
+  </servlet-mapping>
+   
+   <servlet-mapping>
+	<servlet-name>CancelReservationController</servlet-name>
+	<url-pattern>/CancelReservationController</url-pattern>
+  </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>ShowReservationsController</servlet-name>
+      <url-pattern>/ShowReservationsController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>CheckTableController</servlet-name>
+      <url-pattern>/CheckTableController</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet-mapping>
+      <servlet-name>DeclineEventController</servlet-name>
+      <url-pattern>/DeclineEventController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>AcceptEventController</servlet-name>
+      <url-pattern>/AcceptEventController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>ViewEventRequestsController</servlet-name>
+      <url-pattern>/ViewEventRequestsController</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet-mapping>
+      <servlet-name>InviteFriendController</servlet-name>
+      <url-pattern>/InviteFriendController</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet-mapping>
+      <servlet-name>CreateRezervacijaController</servlet-name>
+      <url-pattern>/CreateRezervacijaController</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet-mapping>
+      <servlet-name>CheckReservationTimeController</servlet-name>
+      <url-pattern>/CheckReservationTimeController</url-pattern>
+   </servlet-mapping>
+   
+   
+    <servlet-mapping>
+      <servlet-name>RestaurantsToChooseController</servlet-name>
+      <url-pattern>/RestaurantsToChooseController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>ChooseRestaurantController</servlet-name>
+      <url-pattern>/ChooseRestaurantController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>DeclineFriendController</servlet-name>
+      <url-pattern>/DeclineFriendController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>AcceptFriendController</servlet-name>
+      <url-pattern>/AcceptFriendController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>ViewFriendRequestsController</servlet-name>
+      <url-pattern>/ViewFriendRequestsController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>AddFriendController</servlet-name>
+      <url-pattern>/AddFriendController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>AddFriendsController</servlet-name>
+      <url-pattern>/AddFriendsController</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet-mapping>
+      <servlet-name>RemoveFriendController</servlet-name>
+      <url-pattern>/RemoveFriendController</url-pattern>
+   </servlet-mapping>
+   
+   
+   
+   <servlet-mapping>
+      <servlet-name>SortFriendsByLnameController</servlet-name>
+      <url-pattern>/SortFriendsByLnameController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>SearchFriendsController</servlet-name>
+      <url-pattern>/SearchFriendsController</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet-mapping>
+      <servlet-name>SortFriendsByNameController</servlet-name>
+      <url-pattern>/SortFriendsByNameController</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet-mapping>
+      <servlet-name>SearchRestaurantsController</servlet-name>
+      <url-pattern>/SearchRestaurantsController</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet-mapping>
+      <servlet-name>CreateRestaurantController</servlet-name>
+      <url-pattern>/CreateRestaurantController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>LogoutController</servlet-name>
+      <url-pattern>/LogoutController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>SortRestaurantsByTypeController</servlet-name>
+      <url-pattern>/SortRestaurantsByTypeController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>RedirectToRegisterController</servlet-name>
+      <url-pattern>/RedirectToRegisterController</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet-mapping>
+      <servlet-name>SortRestaurantsByNameController</servlet-name>
+      <url-pattern>/SortRestaurantsByNameController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>ShowRestaurantsController</servlet-name>
+      <url-pattern>/ShowRestaurantsController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>RedirectToLoginController</servlet-name>
+      <url-pattern>/RedirectToLoginController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>UpdateProfileController</servlet-name>
+      <url-pattern>/UpdateProfileController</url-pattern>
+   </servlet-mapping>
+   
+  <servlet-mapping>
+      <servlet-name>RegisterController</servlet-name>
+      <url-pattern>/RegisterController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>ConfirmController</servlet-name>
+      <url-pattern>/ConfirmController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>LoginController</servlet-name>
+      <url-pattern>/LoginController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>ShowFreindsController</servlet-name>
+      <url-pattern>/ShowFreindsController</url-pattern>
+   </servlet-mapping>
+   
+   
+   
+ <!-- TAMARA -->
+ 
+<!-- IVANA -->
+<servlet-mapping>
+	<servlet-name>CreateJeloController</servlet-name>
+	<url-pattern>/CreateJeloController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>CreateJelovnikController</servlet-name>
+  	<url-pattern>/CreateJelovnikController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>CreateKartaPicaController</servlet-name>
+  	<url-pattern>/CreateKartaPicaController</url-pattern>
+</servlet-mapping>
+ 
+<servlet-mapping>
+	<servlet-name>CreateKonobarController</servlet-name>
+  	<url-pattern>/CreateKonobarController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>CreateKuvarController</servlet-name>
+	<url-pattern>/CreateKuvarController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>CreateNamirniceController</servlet-name>
+	<url-pattern>/CreateNamirniceController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>CreatePiceController</servlet-name>
+  	<url-pattern>/CreatePiceController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>CreatePonudaController</servlet-name>
+  	<url-pattern>/CreatePonudaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>CreatePonudjacController</servlet-name>
+  	<url-pattern>/CreatePonudjacController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>CreateRasporedStolovaController</servlet-name>
+  	<url-pattern>/CreateRasporedStolovaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>CreateSankerController</servlet-name>
+  	<url-pattern>/CreateSankerController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>CreateSmenaController</servlet-name>
+  	<url-pattern>/CreateSmenaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>CreateStoController</servlet-name>
+  	<url-pattern>/CreateStoController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>IzvestajJeloOcenaController</servlet-name>
+  	<url-pattern>/IzvestajJeloOcenaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>IzvestajKonobarOcenaController</servlet-name>
+  	<url-pattern>/IzvestajKonobarOcenaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>IzvestajKonobarPrihodiController</servlet-name>
+  	<url-pattern>/IzvestajKonobarPrihodiController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>IzvestajRestoranOcenaController</servlet-name>
+  	<url-pattern>/IzvestajRestoranOcenaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>IzvestajRestoranPrihodiController</servlet-name>
+  	<url-pattern>/IzvestajRestoranPrihodiController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DnevniIzvestajPosecenostiController</servlet-name>
+  	<url-pattern>/DnevniIzvestajPosecenostiController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>NedeljniIzvestajPosecenostiController</servlet-name>
+  	<url-pattern>/NedeljniIzvestajPosecenostiController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>PrepareCreateKonobarController</servlet-name>
+  	<url-pattern>/PrepareCreateKonobarController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>PrepareCreatePonudaController</servlet-name>
+  	<url-pattern>/PrepareCreatePonudaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>PrepareUpdatePonudaController</servlet-name>
+  	<url-pattern>/PrepareUpdatePonudaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>PrepareUpdatePonudjacController</servlet-name>
+  	<url-pattern>/PrepareUpdatePonudjacController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>PrepareUpdateRestoranController</servlet-name>
+ 	<url-pattern>/PrepareUpdateRestoranController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>UpdatePonudaController</servlet-name>
+  	<url-pattern>/UpdatePonudaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>UpdatePonudjacController</servlet-name>
+  	<url-pattern>/UpdatePonudjacController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>UpdateRestoranController</servlet-name>
+  	<url-pattern>/UpdateRestoranController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadJeloController</servlet-name>
+  	<url-pattern>/ReadJeloController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadJelovnikController</servlet-name>
+  	<url-pattern>/ReadJelovnikController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadKartaPicaController</servlet-name>
+  	<url-pattern>/ReadKartaPicaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadKonobarController</servlet-name>
+  	<url-pattern>/ReadKonobarController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadKuvarController</servlet-name>
+  	<url-pattern>/ReadKuvarController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadNamirniceController</servlet-name>
+  	<url-pattern>/ReadNamirniceController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadNamirniceZaPonudjacaController</servlet-name>
+  	<url-pattern>/ReadNamirniceZaPonudjacaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadPiceController</servlet-name>
+  	<url-pattern>/ReadPiceController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadPonudaController</servlet-name>
+  	<url-pattern>/ReadPonudaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadPonudaZaPonudjacaController</servlet-name>
+  	<url-pattern>/ReadPonudaZaPonudjacaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadPonudjacController</servlet-name>
+  	<url-pattern>/ReadPonudjacController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadPonudjaciController</servlet-name>
+  	<url-pattern>/ReadPonudjaciController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadRasporedStolovaController</servlet-name>
+  	<url-pattern>/ReadRasporedStolovaController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadReonController</servlet-name>
+  	<url-pattern>/ReadReonController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadRestoranController</servlet-name>
+  	<url-pattern>/ReadRestoranController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadSankerController</servlet-name>
+  	<url-pattern>/ReadSankerController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ReadSmenaController</servlet-name>
+  	<url-pattern>/ReadSmenaController</url-pattern>
+</servlet-mapping>
+<!-- IVANA -->
+ <!-- ****************************************** -->
+ <servlet-mapping>
+	<servlet-name>UpdateKonobarController</servlet-name>
+  	<url-pattern>/UpdateKonobarController</url-pattern>
+</servlet-mapping>
+
+ <servlet-mapping>
+	<servlet-name>UpdateKuvarController</servlet-name>
+  	<url-pattern>/UpdateKuvarController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>UpdateSankerController</servlet-name>
+  	<url-pattern>/UpdateSankerController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>SendNotificationMtoP</servlet-name>
+  	<url-pattern>/SendNotificationMtoP</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>SendNotificationPtoM</servlet-name>
+  	<url-pattern>/SendNotificationPtoM</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>TakeSupplyController</servlet-name>
+  	<url-pattern>/TakeSupplyController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>AddReonToStoController</servlet-name>
+  	<url-pattern>/AddReonToStoController</url-pattern>
+</servlet-mapping>
+ <!-- ************************************** -->
+
+
+ <welcome-file-list>
+  <welcome-file>/login.jsp</welcome-file>
+ </welcome-file-list>
+ <error-page>
+  <exception-type>java.lang.Throwable</exception-type>
+  <location>/error.jsp</location>
+ </error-page>
+ <error-page>
+  <error-code>404</error-code>
+  <location>/404.jsp</location>
+ </error-page>
+</web-app>

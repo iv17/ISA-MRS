@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+    <display-name>tim14</display-name>
+    
+    <module>
+        <web>
+            <web-uri>tim14.war</web-uri>
+            <context-root>/tim14</context-root>
+        </web>
+    </module>
+
+    <module>
+        <ejb>tim14.jar</ejb>
+    </module>
+</application>
